@@ -1,0 +1,42 @@
+.card {
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    background-color: #F6F6F6;
+    width: 400px;
+    border: 1px solid #F6F6F6;
+    padding: 0px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    margin: 20px;
+}
+
+.card #review {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card #date {
+    color: grey;
+}
+
+.card h1 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.card button {
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    position: relative;
+    left: 65%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

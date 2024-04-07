@@ -1,0 +1,41 @@
+table {
+    position: relative;
+    right: -30%;
+    border-collapse: collapse;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ddd;
+        border-radius: 8px;
+}
+
+.product-card {
+    display: flex;
+    gap: 20px;
+     padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+        border-radius: 8px;
+}
+
+.product-card img {
+   height: 150%;
+   width: 150%;
+    position: relative;
+    left: 10%;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 5px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
